@@ -75,10 +75,10 @@ client.on('interactionCreate', async interaction => {
                     if (foundChara) {
                         const guideImages = foundChara.imgFiles;
                         if (guideImages.length === 1) {
-                            interaction.reply(`https://raw.githubusercontent.com/BShadowJ/guobot-lite/main/guides/${guideImages[0]}`);
+                            interaction.reply(`https://raw.githubusercontent.com/BShadowJ/guobot-lite/add_guides/guides/${guideImages[0]}`);
                         }
                         else if (guideImages.length > 1) {
-                            const allGuides = guideImages.map(i => `https://raw.githubusercontent.com/BShadowJ/guobot-lite/main/guides/${i}`).join('\n');
+                            const allGuides = guideImages.map(i => `https://raw.githubusercontent.com/BShadowJ/guobot-lite/add_guides/guides/${i}`).join('\n');
                             interaction.reply(allGuides);
                         }
                         else {
