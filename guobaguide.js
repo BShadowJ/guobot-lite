@@ -64,7 +64,7 @@ charalist = [
     {
         charaname: 'guinaifen',
         imgFiles: [
-            'guinaifen-v1.6',
+            'guinaifen-v1.6.png',
         ],
     },
     {
